@@ -29,4 +29,4 @@ FROM top_10_jobs
 INNER JOIN skills_job_dim ON skills_job_dim.job_id = top_10_jobs.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
-    salary_year_avg DESC
+    salary_year_avg DESC;
